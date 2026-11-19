@@ -1,0 +1,12 @@
+{
+  "name": "ich-dynamic-light-healing",
+  "private": true,
+  "description": "基于非遗文化元素的动态光色疗愈体验软件V1.0",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "engines": {
+    "node": ">=20"
+  }
+}

@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>基于非遗文化元素的动态光色疗愈体验软件V1.0</title>
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='14' fill='%230d1a20'/%3E%3Ccircle cx='32' cy='32' r='19' fill='none' stroke='%237fc6b8' stroke-width='3'/%3E%3Ccircle cx='32' cy='32' r='7' fill='%23d9b26a'/%3E%3C/svg%3E">
+<link rel="stylesheet" href="css/app.css">
+</head>
+<body>
+<div id="authLayer" class="auth-layer"></div>
+<div id="shell" class="shell hidden">
+  <aside class="sidebar">
+    <div class="brand">
+      <div class="brand-mark">
+        <span></span><span></span><span></span><span></span>
+      </div>
+      <div class="brand-text">
+        <strong>光色疗愈</strong>
+        <small>非遗动态体验</small>
+      </div>
+    </div>
+    <nav id="nav" class="nav"></nav>
+    <div class="sidebar-foot">
+      <div id="sideUser" class="side-user"></div>
+      <div class="version">V1.0 · 陕西理工大学</div>
+    </div>
+  </aside>
+  <main class="main">
+    <header class="topbar">
+      <div class="topbar-left">
+        <div id="crumb" class="crumb"></div>
+        <h1 id="pageTitle" class="page-title"></h1>
+      </div>
+      <div class="topbar-right">
+        <div id="clock" class="clock"></div>
+        <div id="roleBadge" class="role-badge"></div>
+      </div>
+    </header>
+    <section id="view" class="view"></section>
+  </main>
+</div>
+<div id="modalRoot" class="modal-root hidden"></div>
+<div id="toastRoot" class="toast-root"></div>
+<script type="module" src="js/app.js"></script>
+</body>
+</html>
